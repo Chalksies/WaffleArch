@@ -35,3 +35,4 @@ ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.s
 useradd -m -G 'wheel' -s /bin/zsh live
 sed -i 's/^\(live:\)!:/\1:/' /etc/shadow
 sed -i 's/^#\s\(%wheel\s.*NOPASSWD\)/\1/' /etc/sudoers
+su -c 'plasma-apply-wallpaperimage /root/WaffleArch/tetowallpaper.png' live

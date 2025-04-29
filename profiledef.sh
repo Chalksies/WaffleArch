@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="WaffleOS-Plasma"
-iso_label="AUIKD"
+iso_name="WaffleArch"
+iso_label="WARCH"
 iso_publisher="Chalkie"
 desktop="Kde"
-iso_application="WaffleOS ${desktop} Live/Rescue medium"
-iso_version="0.4"
+iso_application="WaffleArch Live/Rescue medium"
+iso_version="0.6"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr'
