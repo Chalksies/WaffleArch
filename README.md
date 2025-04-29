@@ -1,3 +1,3 @@
-# WaffleOS development repository
+# WaffleArch development repository
 
 This is a fork of archiso releng profile.
