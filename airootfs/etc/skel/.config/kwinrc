@@ -3,6 +3,10 @@ Id_1=fd731a40-029d-48fa-b99b-3e3b1125c789
 Number=1
 Rows=1
 
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze
+
 [Effect-overview]
 BorderActivate=9
 

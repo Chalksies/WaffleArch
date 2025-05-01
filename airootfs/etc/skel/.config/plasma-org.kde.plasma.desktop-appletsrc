@@ -18,6 +18,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/TetoMinimalist/contents/images/1920x1080.png
+
 [Containments][160][Applets][161][Configuration][General]
 launchers=preferred://filemanager,preferred://browser
 
@@ -216,7 +219,7 @@ DialogWidth=720
 positions={"1920x1080":[]}
 
 [Containments][49][Wallpaper][org.kde.image][General]
-Image=/home/live/.local/share/wallpapers/tetowallpaper.png
+Image=file:///usr/share/wallpapers/TetoMinimalist/contents/images/1920x1080.png
 
 [Containments][50]
 ItemGeometries-1920x1080=
@@ -233,7 +236,7 @@ wallpaperplugin=org.kde.image
 positions={"1920x1080":[]}
 
 [Containments][50][Wallpaper][org.kde.image][General]
-Image=/home/live/.local/share/wallpapers/tetowallpaper.png
+Image=file:///usr/share/wallpapers/TetoMinimalist/contents/images/1920x1080.png
 
 [Containments][51]
 activityId=

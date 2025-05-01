@@ -1,5 +1,5 @@
 [Wallpaper]
-defaultWallpaperTheme=/home/live/.local/share/wallpapers/tetowallpaper.png
+defaultWallpaperTheme=file:///usr/share/wallpapers/TetoMinimalist/contents/images/1920x1080.png
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1080
