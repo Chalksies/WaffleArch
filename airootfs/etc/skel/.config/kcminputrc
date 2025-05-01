@@ -1,0 +1,9 @@
+[Libinput][1267][12864][ELAN0412:01 04F3:3240 Touchpad]
+DisableEventsOnExternalMouse=true
+Enabled=false
+
+[Libinput][2][14][ETPS/2 Elantech Touchpad]
+Enabled=false
+
+[Mouse]
+cursorSize=32

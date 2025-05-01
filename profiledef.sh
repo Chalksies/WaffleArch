@@ -2,33 +2,26 @@
 # shellcheck disable=SC2034
 
 iso_name="WaffleArch"
-iso_label="WARCH"
-iso_publisher="Chalkie"
-desktop="Kde"
-iso_application="WaffleArch Live/Rescue medium"
+iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="Chalkie <https://www.github.com/Chalksies>"
+iso_application="WaffleArch Live/Rescue DVD"
 iso_version="0.6"
 install_dir="arch"
 buildmodes=('iso')
-bootmodes=('bios.syslinux.mbr'
-           'bios.syslinux.eltorito'
-           'uefi-ia32.systemd-boot.eltorito'
-           'uefi-ia32.systemd-boot.esp'
-           'uefi-x64.systemd-boot.esp'
-           'uefi-x64.systemd-boot.eltorito'
-           )
-ia32_uefi_default_bootloader="uefi-ia32.systemd-boot.esp"
-x64_uefi_default_bootloader="uefi-x64.systemd-boot.esp"
+bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
+           'uefi-ia32.systemd-boot.esp' 'uefi-x64.systemd-boot.esp'
+           'uefi-ia32.systemd-boot.eltorito' 'uefi-x64.systemd-boot.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
-pacman_testing_conf="pacman-testing.conf"
 airootfs_image_type="squashfs"
-airootfs_image_tool_options=('-comp' 'zstd')
-bootstrap_tarball_compression=('zstd' '-c' '-T0' '--auto-threads=logical')
+airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
+bootstrap_tarball_compression=('zstd' '-c' '-T0' '--auto-threads=logical' '--long' '-19')
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
-  ["/root/.automated_script.sh"]="0:0:750"
+  ["/root/.automated_script.sh"]="0:0:755"
   ["/root/.gnupg"]="0:0:700"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
+  ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
