@@ -6,4 +6,5 @@ Enabled=false
 Enabled=false
 
 [Mouse]
+cursorTheme=kasane-teto-cursors
 cursorSize=32

@@ -216,7 +216,7 @@ DialogWidth=720
 positions={"1920x1080":[]}
 
 [Containments][49][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/TetoMinimalist/contents/images/1920x1080
+Image=/home/live/.local/share/wallpapers/tetowallpaper.png
 
 [Containments][50]
 ItemGeometries-1920x1080=
@@ -233,7 +233,7 @@ wallpaperplugin=org.kde.image
 positions={"1920x1080":[]}
 
 [Containments][50][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/TetoMinimalist/contents/images/1920x1080
+Image=/home/live/.local/share/wallpapers/tetowallpaper.png
 
 [Containments][51]
 activityId=
