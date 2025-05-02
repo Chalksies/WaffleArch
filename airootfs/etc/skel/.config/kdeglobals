@@ -113,9 +113,6 @@ shadeSortColumn=true
 [Icons]
 Theme=breeze-dark
 
-[KDE]
-LookAndFeelPackage=Nothing
-
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
